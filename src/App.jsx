@@ -4,65 +4,53 @@ import ImageGallery from "./components/ImageGallery";
 export default function App() {
   const natutalLight = [
     {
-      title: "darby",
+      title: "Christabel",
       images: [
         {
-          name: "butterfly",
-          src: "/images/Artificial/Darby/1.webp",
+          name: "Christabel",
+          src: "/images/natural-light/Christabel/1.jpg",
         },
         {
-          name: "darby broad",
-          src: "/images/Artificial/Darby/2.webp",
+          name: "Christabel",
+          src: "/images/natural-light/Christabel/2.jpg",
         },
         {
-          name: "rambrandt",
-          src: "/images/Artificial/Darby/3.webp",
-        },
-        {
-          name: "short",
-          src: "/images/Artificial/Darby/4.webp",
-        },
-        {
-          name: "split",
-          src: "/images/Artificial/Darby/5.webp",
+          name: "Christabel",
+          src: "/images/natural-light/Christabel/3.jpg",
         },
       ],
     },
     {
-      title: "farren",
+      title: "Edet",
       images: [
         {
-          name: "image",
-          src: "/images/Artificial/Farren/1.webp",
+          name: "Edet",
+          src: "/images/natural-light/Edet/1.jpg",
         },
         {
-          name: "rambrandt",
-          src: "/images/Artificial/Farren/2.webp",
+          name: "Edet",
+          src: "/images/natural-light/Edet/2.jpg",
         },
         {
-          name: "short lightning",
-          src: "/images/Artificial/Farren/3.webp",
+          name: "Edet",
+          src: "/images/natural-light/Edet/3.jpg",
         },
       ],
     },
     {
-      title: "sharon",
+      title: "Sharon",
       images: [
         {
-          name: "broad",
-          src: "/images/Artificial/Sharon/1.JPG",
+          name: "Edet",
+          src: "/images/natural-light/Sharon/1.jpg",
         },
         {
-          name: "sharon rambrandt",
-          src: "/images/Artificial/Sharon/2.JPG",
+          name: "Edet",
+          src: "/images/natural-light/Sharon/2.jpg",
         },
         {
-          name: "sharon butterfly",
-          src: "/images/Artificial/Sharon/3.JPG",
-        },
-        {
-          name: "sharon split",
-          src: "/images/Artificial/Sharon/4.JPG",
+          name: "Edet",
+          src: "/images/natural-light/Sharon/3.jpg",
         },
       ],
     },
@@ -154,7 +142,7 @@ export default function App() {
         </p>
       </section>
 
-      <section className="p-12 bg-gray-900 text-center">
+      {/*      <section className="p-12 bg-gray-900 text-center">
         <h2 className="text-3xl font-bold mb-6">Featured Portfolio</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {[1, 2, 3].map((vid) => (
@@ -173,7 +161,7 @@ export default function App() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <section className="p-12 bg-black text-center">
         <h2 className="text-3xl font-bold mb-6">Projects</h2>
@@ -184,14 +172,14 @@ export default function App() {
             Natural Light Portraits
           </h3>
 
-          <ImageGallery title="Studio light" lightCategory={natutalLight} />
+          <ImageGallery lightCategory={natutalLight} />
         </div>
 
         {/* Artificial Category */}
         <div>
           <h3 className="text-2xl font-semibold mb-4">Artificial Lighting</h3>
 
-          <ImageGallery title="Studio light" lightCategory={artificialLight} />
+          <ImageGallery lightCategory={artificialLight} />
         </div>
       </section>
 

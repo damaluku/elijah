@@ -14,13 +14,13 @@ export default function ImageGallery({ title, lightCategory }) {
             <h4 className="text-lg font-medium mb-2 text-gray-300 capitalize">
               {item.title}
             </h4>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-950">
               {item.images.map((img, imgIndex) => (
                 <img
                   key={imgIndex}
                   src={img.src}
                   alt={img.name}
-                  className="rounded-lg shadow-md cursor-pointer hover:scale-105 transition-transform h-80 object-cover"
+                  className="rounded-lg shadow-md cursor-pointer hover:scale-105 transition-transform w-full md:w-80 h-80 object-cover"
                   onClick={() => setSelectedImg(img.src)}
                 />
               ))}
