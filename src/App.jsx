@@ -119,6 +119,45 @@ export default function App() {
         },
       ],
     },
+    {
+      title: "Action-Photography",
+      images: [
+        {
+          name: "broad",
+          src: "/images/Artificial/Action-Photography/IMG_6785.JPG",
+        },
+        {
+          name: "broad",
+          src: "/images/Artificial/Action-Photography/IMG_7016.JPG",
+        },
+        {
+          name: "broad",
+          src: "/images/Artificial/Action-Photography/IMG_7047.JPG",
+        },
+      ],
+    },
+    {
+      title: "Arificial-Cent-Candle-Light",
+      images: [
+        {
+          name: "broad",
+          src: "/images/Artificial/Arificial-Cent-Candle-Light/IMG_5492.JPG",
+        },
+        {
+          name: "broad",
+          src: "/images/Artificial/Action-Photography/IMG_7016.JPG",
+        },
+      ],
+    },
+    {
+      title: "Confederation-Inn",
+      images: [
+        {
+          name: "broad",
+          src: "/images/Artificial/Confederation-Inn/IMG_7440.JPG",
+        },
+      ],
+    },
   ];
 
   return (
